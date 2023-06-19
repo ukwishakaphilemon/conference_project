@@ -5,7 +5,7 @@ from .models import Conference
 
 class ConferenceTestCase(TestCase):
     def setUp(self):
-        Conference.objects.create(name='Conference 1', dates='2023-07-10 - 2023-07-12', location='City A')
+        Conference.objects.create(name='Conference 1', dates='2023-07-10 - 2023-07-12', location='City A', topic= 'vote' description = 'voting committe')
 
     def test_conf_list_view(self):
         url = reverse('conference_list')
