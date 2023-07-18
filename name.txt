@@ -1,3 +1,2 @@
-REG NUMBER: 221006377
-NAME :HIRWA Fidele
-department : computer science
+HIRWA Fidele 221006377 computer science
+ 
